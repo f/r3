@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_PATH	bin/rails	/^APP_PATH = File.expand_path('..\/..\/config\/application', __FILE__)$/;"	c
+APP_ROOT	bin/setup	/^APP_ROOT = Pathname.new File.expand_path('..\/..\/',  __FILE__)$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	app/assets/javascripts/base/application.jsx	/^class Application extends React.Component {$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:R3
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Click	app/assets/javascripts/base/application.jsx	/^        <button onClick={() => dispatch(nextScreen())}>Next<\/button>$/;"	c
+Click	app/assets/javascripts/base/application.jsx	/^        <button onClick={() => dispatch(prevScreen())}>Prev<\/button>$/;"	c
+IndexController	app/controllers/index_controller.rb	/^class IndexController < ApplicationController$/;"	c
+IndexControllerTest	test/controllers/index_controller_test.rb	/^class IndexControllerTest < ActionController::TestCase$/;"	c
+IndexHelper	app/helpers/index_helper.rb	/^module IndexHelper$/;"	m
+Query	app/assets/javascripts/vendors.js	/^window.jQuery     = require('jquery');$/;"	c
+R3	config/application.rb	/^module R3$/;"	m
+React	app/assets/javascripts/vendors.js	/^window.React      = require('react');$/;"	c
+ReactDOM	app/assets/javascripts/vendors.js	/^window.ReactDOM   = require('react-dom');$/;"	c
+ReactRedux	app/assets/javascripts/vendors.js	/^window.ReactRedux = require('react-redux');$/;"	c
+Redux	app/assets/javascripts/vendors.js	/^window.Redux      = require('redux');$/;"	c
+ReduxDevToolsMiddleware	app/assets/javascripts/store.jsx	/^   ReduxDevToolsMiddleware()$/;"	m
+ReduxDevToolsMiddleware	app/assets/javascripts/store.jsx	/^function ReduxDevToolsMiddleware() {$/;"	m
+Root	app/assets/javascripts/base/root.jsx	/^class Root extends React.Component {$/;"	c
+STORE	app/assets/javascripts/store.jsx	/^const STORE = createStore(REDUCERS)$/;"	c
+activeScreen	app/assets/javascripts/reducers.jsx	/^function activeScreen(state = 1, action) {$/;"	m
+combineReducers	app/assets/javascripts/reducers.jsx	/^const REDUCERS = Redux.combineReducers({$/;"	m
+compose	app/assets/javascripts/store.jsx	/^var createStore = Redux.compose($/;"	m
+connect	app/assets/javascripts/base/application.jsx	/^Application = ReactRedux.connect(state => state)(Application);$/;"	m
+createStore	app/assets/javascripts/store.jsx	/^const STORE = createStore(REDUCERS)$/;"	m
+dialog	public/404.html	/^  <div class="dialog">$/;"	c
+dialog	public/422.html	/^  <div class="dialog">$/;"	c
+dialog	public/500.html	/^  <div class="dialog">$/;"	c
+dispatch	app/assets/javascripts/base/application.jsx	/^        <button onClick={() => dispatch(nextScreen())}>Next<\/button>$/;"	m
+dispatch	app/assets/javascripts/base/application.jsx	/^        <button onClick={() => dispatch(prevScreen())}>Prev<\/button>$/;"	m
+index	app/controllers/index_controller.rb	/^  def index$/;"	f	class:IndexController
+nextScreen	app/assets/javascripts/actions.jsx	/^function nextScreen() {$/;"	m
+prevScreen	app/assets/javascripts/actions.jsx	/^function prevScreen() {$/;"	m
+render	app/assets/javascripts/base/root.jsx	/^  render() {$/;"	m
+require	app/assets/javascripts/vendors.js	/^window.React      = require('react');$/;"	m
+require	app/assets/javascripts/vendors.js	/^window.ReactDOM   = require('react-dom');$/;"	m
+require	app/assets/javascripts/vendors.js	/^window.ReactRedux = require('react-redux');$/;"	m
+require	app/assets/javascripts/vendors.js	/^window.Redux      = require('redux');$/;"	m
+require	app/assets/javascripts/vendors.js	/^window.jQuery     = require('jquery');$/;"	m
